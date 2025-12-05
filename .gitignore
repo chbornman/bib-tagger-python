@@ -2,4 +2,4 @@ venv/
 __pycache__/
 *.pyc
 test_folder/
-*.pt
+*_debug.*
