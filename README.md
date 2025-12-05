@@ -215,4 +215,24 @@ MIT License - See [LICENSE](LICENSE) for details.
 
 - YOLO model architecture by [Ultralytics](https://ultralytics.com/)
 - OCR powered by [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
-- Inspired by the C++ [SonyTagger](https://github.com/chbornman/SonyTagger) project
+
+### Training Data Attribution
+
+The included bib detection model was trained on combined public datasets from Roboflow Universe:
+
+| Dataset | Author | License |
+|---------|--------|---------|
+| [Bib Number Labeling](https://universe.roboflow.com/marco-cheung/bib-number-labeling) | Marco Cheung | CC BY 4.0 |
+| [Bib Number Detection](https://universe.roboflow.com/ai-vsumn/bib_number_detection) | AI-VSUMN | Roboflow |
+| [Bib Number](https://universe.roboflow.com/bibnumberdetection/bib-number-x7gbv) | BibNumberDetection | Roboflow |
+
+Marco Cheung's dataset itself aggregates images from multiple contributors:
+- thomas-lamalle/bib-detection
+- rbnr/bib-detector
+- sputtipa/bip
+- bibnumber/bibnumber
+- python-vertiefung/python-vertiefung
+- hcmus-3p8wh/bib-detection-big-data
+- h1-qtgu0/bib-number
+
+Thank you to all the photographers and annotators who made their data publicly available.
